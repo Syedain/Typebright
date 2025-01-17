@@ -98,7 +98,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+	color: #007bff;
 }
 
 a:hover {
@@ -643,14 +643,32 @@ span.middot {
 	border-radius: 25px;
 	padding: 25px;
 }
+.dark-grey-box:hover {
+	background: #d8d8d8;
+	border-radius: 25px;
+	padding: 25px;
+	transition: 0.5s;
+}
 .dark-grey-box {
-	background: #595959;
+	transition: 0.5s;
 	border-radius: 25px;
 	padding: 25px;
 }
 
 .main-button {
 	border-radius: 25px !important;
+}
+.faq-bg{
+	background-color: #d8d8d8;
+    padding: 1px;
+}
+.project-carousel {
+    background-color: #e9e9e9;
+    padding: 40px 0 0 0;
+}
+.header-blue{
+    background-color: #007bff;
+    height: 100px;
 }
 
 /*Project*/
@@ -3925,8 +3943,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	border-top: 0;
 }
 
-/* Off Canvas Menu
------------------------------------------------------------------*/
+/* Off Menu*/
 
 @media (max-width: 991.98px) {
 
@@ -6789,7 +6806,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 
 .breadcrumb a:hover {
-	color: #1ABC9C;
+	color: #0d6efd;
 }
 
 .breadcrumb i {
@@ -7081,12 +7098,12 @@ body:not(.device-touch) .grid-container {
 }
 
 .grid-filter li a:hover {
-	color: #1ABC9C;
+	color: #007bff;
 }
 
 .grid-filter li.activeFilter a {
 	color: #FFF;
-	background-color: #1ABC9C;
+	background-color: #007bff;
 	margin: 0;
 	font-weight: bold;
 }
@@ -9426,7 +9443,7 @@ td.actions {
 	padding: 8px 22px;
 	font-size: 0.875rem;
 	line-height: 24px;
-	background-color: #1ABC9C;
+	background-color: #007bff;
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -10596,7 +10613,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-plain .fbox-icon img {
 	border: none;
 	background-color: transparent !important;
-	color: #1ABC9C;
+	color: #007bff;
 	border-radius: 0;
 }
 
@@ -10706,7 +10723,7 @@ body:not(.device-touch) .button.button-full strong {
 	margin-top: 2rem;
 	margin-left: 0;
 	margin-right: 0;
-	padding: 0 2rem 2rem;
+	padding: 0 1rem 2rem;
 	border: 1px solid #E5E5E5;
 	border-radius: 5px;
 }
@@ -15346,7 +15363,7 @@ h3.titular-title {
 .title-bottom-border h6 {
 	width: 100%;
 	padding: 0 0 0.75rem;
-	border-bottom: 2px solid #1ABC9C;
+	border-bottom: 2px solid #007bff;
 }
 
 
@@ -15633,7 +15650,7 @@ body:not(.device-touch) #gotoTop {
 }
 
 #gotoTop:hover {
-	background-color: #1ABC9C;
+	background-color: #007bff;
 }
 
 

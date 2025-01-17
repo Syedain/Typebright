@@ -234,8 +234,7 @@ body #side-panel.dark {
 		border-top-color: rgba(255,255,255,0.2);
 	}
 
-	/* Off Canvas Menu
-	-----------------------------------------------------------------*/
+	/* Off Menu*/
 
 	.dark #header:not(.sticky-header) .mobile-menu-off-canvas .menu-container,
 	#header.dark:not(.sticky-header) .mobile-menu-off-canvas .menu-container {
