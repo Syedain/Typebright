@@ -408,7 +408,7 @@
 .owl-stage-outer::before,
 .owl-stage-outer::after {
 	position: absolute;
-	content: '';
+	/* content: ''; */
 	top: 0;
 	left: 0;
 	width: 300px;
@@ -430,7 +430,7 @@
 
 .bg-angle::after,
 .section.bg-angle::before {
-	content: '';
+	/* content: ''; */
 	height: 100%;
 	overflow: hidden;
 	width: 100%;

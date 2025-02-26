@@ -225,7 +225,7 @@ body #side-panel.dark {
 
 .dark .menu-item:hover > .menu-link,
 .dark .menu-item.current > .menu-link {
-	color: #444;
+	color: #444 !important;
 }
 
 @media (max-width: 991.98px) {
@@ -234,8 +234,7 @@ body #side-panel.dark {
 		border-top-color: rgba(255,255,255,0.2);
 	}
 
-	/* Off Canvas Menu
-	-----------------------------------------------------------------*/
+	/* Off Menu*/
 
 	.dark #header:not(.sticky-header) .mobile-menu-off-canvas .menu-container,
 	#header.dark:not(.sticky-header) .mobile-menu-off-canvas .menu-container {
@@ -967,7 +966,7 @@ body #side-panel.dark {
 }
 
 .dark .i-plain {
-	color: #EEE;
+	color: #444;
 	text-shadow: none;
 }
 

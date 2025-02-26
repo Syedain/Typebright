@@ -194,7 +194,7 @@ Header
 	padding-left: 0;
 }
 
-/* Off Canvas Menu
+/* Off Menu
 -----------------------------------------------------------------*/
 @media (max-width: 991.98px) {
 	body:not(.sticky-responsive-menu) .mobile-menu-off-canvas .menu-container {

@@ -60,7 +60,7 @@ li {
 }
 
 ::selection {
-	background: #007bff;
+	background: #007bff !important;
 	color: #FFF;
 	text-shadow: none;
 }
@@ -98,7 +98,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+	color: #007bff;
 }
 
 a:hover {
@@ -404,7 +404,7 @@ span.middot {
 
 .bg-color,
 .bg-color #header-wrap {
-	background-color: #1ABC9C !important;
+	background-color: #007bff !important;
 }
 
 .color {
@@ -632,7 +632,7 @@ span.middot {
 	overflow: visible !important;
 }
 
-/*project*/
+/*Xoleo Start*/
 .button-link {
 	width: 55%;
 	border-radius: 25px !important;
@@ -643,8 +643,16 @@ span.middot {
 	border-radius: 25px;
 	padding: 25px;
 }
+
+.dark-grey-box:hover {
+	background: #d8d8d8;
+	border-radius: 25px;
+	padding: 25px;
+	transition: 0.5s;
+}
+
 .dark-grey-box {
-	background: #595959;
+	transition: 0.5s;
 	border-radius: 25px;
 	padding: 25px;
 }
@@ -653,7 +661,197 @@ span.middot {
 	border-radius: 25px !important;
 }
 
-/*Project*/
+.faq-bg {
+	background-color: #d8d8d8;
+	padding: 1px;
+}
+
+.project-carousel {
+	background-color: #e9e9e9;
+	padding: 40px 0 30px 0;
+}
+
+.header-blue {
+	background-color: #007bff;
+	height: 100px;
+}
+
+.blur-bg-color {
+	color: #007bff !important;
+}
+
+.staff-augmentation {
+	position: relative;
+	width: 100%;
+	margin: 60px 0;
+	padding: 60px 0;
+	background-color: #F9F9F9;
+	overflow: hidden;
+}
+
+.business {
+	position: relative;
+	width: 100%;
+	margin: 60px 0;
+	padding: 60px 0;
+	background-color: #F9F9F9;
+	overflow: hidden;
+}
+
+.grey-section {
+	background-color: #e9e9e9;
+	padding: 40px 0 40px 0;
+}
+
+.black-section {
+	background-color: #232326;
+	padding: 40px 0 0 0;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.technology-ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.0714285714rem;
+}
+
+.technology-li {
+	background-color: #333339;
+	border-radius: 25px;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+
+.technology-span {
+	color: #fff;
+}
+
+.technology-img {
+	height: 24px;
+}
+
+.technology-bg {
+	background-image: url(./images/technology.jpg);
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+.AI-bg {
+	background-image: url(./images/AI-bg.jpg);
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+.Finance-bg {
+	background-image: url(./images/financeAndAccounting.jpg);
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+.cloud-computing-bg {
+	background-image: url(./images/cloudComputing.jpg);
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+.marketing-sales-bg {
+	background-image: url(./images/marketingSales.jpg);
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+.business-intelligence-bg {
+	background-image: url(./images/businessIntelligence.jpg);
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+.industry-bg {
+	background-image: url(./images/industries.jpg);
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+.expertise-bg {
+	background-image: url(./images/expertise-bg.webp);
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+.expertise-ul {
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+	position: static;
+	opacity: 1;
+	visibility: visible;
+	background: none;
+	backdrop-filter: none;
+	padding: 0;
+}
+
+.expertise-li {
+	display: inline-flex
+}
+
+.expertise-a {
+	position: relative;
+	font-size: 1.1428571429rem;
+	color: #fff;
+	background-color: rgba(35, 35, 38, .2);
+	backdrop-filter: blur(25px);
+	border-radius: 10px;
+	padding: 14px 30px;
+	transition: 0.4s
+}
+.xoleo-breadcrumbs {
+	position: absolute !important;
+    width: auto !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    padding: 0 0 0 20px !important;
+    font-size: 100%;
+    transform: translateY(-50%);
+	display: flex;
+    list-style: none;
+}
+.xoleo-breadcrumbs a{
+	color: #fff;
+}
+.mb-20{
+	margin-bottom: 20px !important;
+}
+.xoleo-careers{
+	background-image: linear-gradient(to right, #7322ed, #e255f9 52%, #a54df1);
+    background-clip: text;
+    display: inline-block !important;
+	font-weight: bold !important;
+    -webkit-text-fill-color: transparent;
+}
+.mt-10{
+	margin-top: 10px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.ml-20{
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	.slider-element{
+		height: 500px !important;
+	}
+  }
+
+/*Xoleo end*/
 
 /* ----------------------------------------------------------------
 	Opacity Utility Classes
@@ -3809,7 +4007,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item:hover>.menu-link,
 .menu-item.current>.menu-link {
-	color: #007bff;
+	/* color: #fff !important; */
 }
 
 .menu-item.sub-menu>.menu-link>div {}
@@ -3925,8 +4123,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	border-top: 0;
 }
 
-/* Off Canvas Menu
------------------------------------------------------------------*/
+/* Off Menu*/
 
 @media (max-width: 991.98px) {
 
@@ -6740,7 +6937,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 #page-title {
 	position: relative;
 	padding: 4rem 0;
-	background-color: #F5F5F5;
+	/* background-color: #F5F5F5; */
 	border-bottom: 1px solid #EEE;
 }
 
@@ -6789,7 +6986,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 
 .breadcrumb a:hover {
-	color: #1ABC9C;
+	color: #0d6efd;
 }
 
 .breadcrumb i {
@@ -7081,12 +7278,12 @@ body:not(.device-touch) .grid-container {
 }
 
 .grid-filter li a:hover {
-	color: #1ABC9C;
+	color: #007bff !important;
 }
 
 .grid-filter li.activeFilter a {
 	color: #FFF;
-	background-color: #1ABC9C;
+	background-color: #007bff !important;
 	margin: 0;
 	font-weight: bold;
 }
@@ -7323,7 +7520,7 @@ body:not(.device-touch) .portfolio {
 }
 
 .portfolio-desc h3 a:hover {
-	color: #1ABC9C;
+	color: #007bff;
 }
 
 .portfolio-desc span {
@@ -8039,7 +8236,7 @@ body:not(.device-touch) .portfolio {
 .entry-title h2 a:hover,
 .entry-title h3 a:hover,
 .entry-title h4 a:hover {
-	color: #1ABC9C;
+	color: #007bff;
 }
 
 .entry-meta {
@@ -8380,7 +8577,7 @@ body:not(.device-touch) .entry-link {
 
 .more-link {
 	display: inline-block;
-	border-bottom: 1px solid #1ABC9C;
+	border-bottom: 1px solid #007bff;
 	padding: 0 2px;
 	font-family: 'PT Serif', serif;
 	font-style: italic;
@@ -9426,7 +9623,7 @@ td.actions {
 	padding: 8px 22px;
 	font-size: 0.875rem;
 	line-height: 24px;
-	background-color: #1ABC9C;
+	background-color: #007bff;
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -10338,7 +10535,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-icon i,
 .fbox-icon img {
 	border-radius: 50%;
-	background-color: #1ABC9C;
+	background-color: #007bff;
 }
 
 .fbox-icon i {
@@ -10454,7 +10651,7 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .fbox-outline .fbox-icon a {
-	border: 1px solid #1ABC9C;
+	border: 1px solid #007bff;
 	padding: 0.25rem;
 	border-radius: 50%;
 }
@@ -10596,7 +10793,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-plain .fbox-icon img {
 	border: none;
 	background-color: transparent !important;
-	color: #1ABC9C;
+	color: #007bff !important;
 	border-radius: 0;
 }
 
@@ -10706,7 +10903,7 @@ body:not(.device-touch) .button.button-full strong {
 	margin-top: 2rem;
 	margin-left: 0;
 	margin-right: 0;
-	padding: 0 2rem 2rem;
+	padding: 0 1rem 2rem;
 	border: 1px solid #E5E5E5;
 	border-radius: 5px;
 }
@@ -14396,7 +14593,7 @@ blockquote.float-end {
 .owl-carousel .owl-dots .owl-dot {
 	width: var(--owl-dots-sizes);
 	height: var(--owl-dots-sizes);
-	background-color: var(--owl-nav-bg);
+	background-color: #007bff;
 	margin-left: var(--owl-dots-gutters);
 	margin-right: var(--owl-dots-gutters);
 	transition: all .3s;
@@ -14527,7 +14724,7 @@ blockquote.float-end {
 }
 
 .owl-carousel .owl-nav [class*=owl-]:hover {
-	background-color: var(--owl-nav-bg) !important;
+	background-color: #007bff !important;
 }
 
 .slider-element .owl-nav [class*=owl-],
@@ -15346,7 +15543,7 @@ h3.titular-title {
 .title-bottom-border h6 {
 	width: 100%;
 	padding: 0 0 0.75rem;
-	border-bottom: 2px solid #1ABC9C;
+	border-bottom: 2px solid #007bff;
 }
 
 
@@ -15633,7 +15830,7 @@ body:not(.device-touch) #gotoTop {
 }
 
 #gotoTop:hover {
-	background-color: #1ABC9C;
+	background-color: #007bff !important;
 }
 
 
